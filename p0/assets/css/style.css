@@ -633,21 +633,29 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.cannons {
+.canons {
   background-color: #000000; /* Change this to the desired background color */
   padding: 25px 0; /* Add some padding to create space */
 }
 
-.cannons .description {
+.canons .description {
   margin-bottom: 30px; /* Add margin between the paragraph and boxes */
 }
 
-.cannons .boxes {
+.canons .section-title {
+  text-align: center;
+}
+
+.canons .description {
+  text-align: center;
+}
+
+.canons .boxes {
   display: flex;
   justify-content: space-around; /* Adjust alignment of boxes */
 }
 
-.cannons .box {
+.canons .box {
   width: 200px; /* Adjust width of each box */
   height: 200px; /* Set height equal to width for square shape */
   text-align: center;
@@ -655,9 +663,29 @@ section {
   padding: 20px;
 }
 
-.cannons .box a {
-  text-decoration: none;
-  color: #333;
+
+
+.canons {
+text-align: center;
+}
+
+.canon-title-1 a {
+  color: #d1d1d1 !important;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.canon-title-2 {
+  font-weight: 700;
+  margin-top: 35px;
+  text-decoration: underline;
+}
+
+.canon-title-3 {
+  color: #3200b1;
+  font-weight: 700;
+  margin-top: 90px;
+  text-decoration: underline;
 }
 
 
@@ -721,6 +749,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info {
+  size: 55px;
   opacity: 0;
   position: absolute;
   left: 30px;
