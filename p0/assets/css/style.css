@@ -669,24 +669,39 @@ section {
 text-align: center;
 }
 
-.canon-title-1 a {
-  color: #d1d1d1 !important;
+.canon-title-1 {
   font-weight: 700;
-  text-decoration: underline;
+  color: #444444;
+  border: #ffffff;
 }
 
 .canon-title-2 {
   font-weight: 700;
   margin-top: 35px;
-  text-decoration: underline;
 }
 
 .canon-title-3 {
-  color: #3200b1;
   font-weight: 700;
   margin-top: 90px;
-  text-decoration: underline;
 }
+
+.resources {
+  padding-bottom: 250px;
+}
+
+.shrug img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.footer-info {
+  left: 150px;
+}
+
+.canon-info {
+  text-align: center;
+}
+
 
 
 
@@ -743,203 +758,76 @@ text-align: center;
 # Portfolio
 --------------------------------------------------------------*/
 
+.scpstitle {
+  padding-bottom: 100px;
+}
+
 .portfolio {
-  background-color: #000000; /* Change this to the desired background color */
-  padding: 210px;
-}
-
-.portfolio .portfolio-item .portfolio-info {
-  size: 55px;
-  opacity: 0;
-  position: absolute;
-  left: 30px;
-  right: 30px;
-  bottom: 0;
-  z-index: 3;
-  transition: all ease-in-out 0.3s;
-  background: rgba(170, 170, 170, 0.9);
-  padding: 15px;
-}
-
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
-  right: 20px;
-  font-size: 24px;
-  top: calc(50% - 18px);
-  color: #333333;
-}
-
-.portfolio .portfolio-item:hover .portfolio-info {
-  opacity: 1;
-  bottom: 35px;
-}
-
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #f9f9f9;
+  padding-top: 150px;
+  background-color: #000000;
+  color: #d1d1d1;
   text-align: center;
-  border-radius: 8px;
-  position: relative;
-  overflow: hidden;
 }
 
-.pricing .box h3 {
-  font-weight: 400;
-  padding: 15px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #191919;
-}
-
-.pricing .box h4 {
-  font-size: 42px;
-  color: #cc1616;
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing .box h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing .box h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing .box ul {
-  padding: 0;
-  list-style: none;
-  color: #191919;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing .box ul li {
-  padding-bottom: 16px;
-}
-
-.pricing .box ul i {
-  color: #cc1616;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing .box ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .box .btn-wrap {
+.box {
+  border: 1px solid #ccc;
   padding: 15px;
   text-align: center;
 }
 
-.pricing .box .btn-buy {
-  background: #cc1616;
-  display: inline-block;
-  padding: 10px 40px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
+.box img {
+  max-width: 100%;
 }
 
-.pricing .box .btn-buy:hover {
-  background: #e82d2d;
+.box p {
+  margin-top: 10px;
 }
 
-.pricing .featured {
-  background: #cc1616;
-  box-shadow: none;
-  color: #fff;
-}
-
-.pricing .featured h3,
-.pricing .featured h4,
-.pricing .featured ul,
-.pricing .featured ul li,
-.pricing .featured ul .na {
-  color: #fff;
-}
-
-.pricing .featured h4 span {
-  color: rgba(255, 255, 255, 0.58);
-}
-
-.pricing .featured .btn-wrap {
-  padding: 15px;
+/* Add any additional styling as needed */
+.learn-more {
   text-align: center;
+  padding-top: 250px;
 }
 
-.pricing .featured .btn-buy {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.pricing .featured .btn-buy:hover {
-  background: #fff;
-  color: #cc1616;
-}
-
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team .member {
+.info-button {
   text-align: center;
-  margin-bottom: 20px;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  padding: 30px 20px;
-  background: #fff;
+  padding-bottom: 50px;
 }
 
-.team .member img {
-  max-width: 60%;
-  border-radius: 50%;
-  margin: 0 0 30px 0;
+.description {
+  width: 50%; /* Set the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: justify; /* Justify the text */
+  float: right; /* Float the container to the right */
+  color: #ececec;
 }
 
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-}
+.return-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 20px 0;
+  }
 
-.team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
+  img.top-middle {
+    img.top-middle 
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      top: 100px; /* Adjust the value as needed */
+      left: 50%;
+      transform: translateX(-50%);
+  }
 
-.team .member p {
-  padding-top: 10px;
-  font-size: 14px;
-  font-style: italic;
-  color: #aaaaaa;
-}
+  .canon-description {
+    text-align: center;
+    padding-top: 25%;
+    color: #ececec;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+  }
+  
 
-.team .member .social {
-  margin-top: 15px;
-}
-
-.team .member .social a {
-  color: #919191;
-  transition: 0.3s;
-}
-
-.team .member .social a:hover {
-  color: #cc1616;
-}
 
